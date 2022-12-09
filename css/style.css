@@ -177,10 +177,11 @@ img {
 .second-background-item {
   background-color: var(--dark-blue);
   color: var(--white);
-  max-width: 1600px;
   background-image: url('../images/photo-hero.jpg'),
     linear-gradient(to bottom, var(--dark-blue) 40%, var(--dark-blue));
   background-position: center;
+  background-size: 1600px;
+  background-repeat: no-repeat;
 }
 
 .first-header-item {
@@ -190,7 +191,6 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   margin: 106px 237px 30px;
-  display: flex;
 }
 
 .main-button-item {
@@ -205,6 +205,8 @@ img {
   padding: 10px 42px;
   margin-left: 500px;
   margin-bottom: 106px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .main-page-text-description-list {
@@ -318,7 +320,6 @@ img {
 .social-icon {
   display: block;
   padding: 12px;
-  font-size: 0;
   border-radius: 50%;
 }
 .social-icon:hover,
@@ -365,6 +366,7 @@ img {
   border: 1px solid var(--blue);
   border-radius: 4px;
   fill: var(--blue);
+  cursor: pointer;
 }
 
 .footer-container {
@@ -462,6 +464,7 @@ img {
 .portfolio-net-list li:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .portfolio-figcaption {
